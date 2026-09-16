@@ -5,8 +5,17 @@
 [![YouTube](https://img.shields.io/badge/▶️_YouTube-Watch_the_free_course-red?logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLS3h0TTAvZGs)
 [![Newsletter](https://img.shields.io/badge/📬_Newsletter-Diary_of_an_AI_Architect-FF6719?logo=substack&logoColor=white)](https://newsletter.karuparti.com)
 [![Udemy](https://img.shields.io/badge/🎯_Udemy-300_practice_questions-A435F0?logo=udemy&logoColor=white)](#)<!-- TODO: replace # with Udemy course URL -->
+[![CCAR-P Certified](https://img.shields.io/badge/🎓_CCAR--P-Certified_·_860%2F1000-C15F3C)](https://www.credly.com/badges/302e4c2a-57f5-40a0-9461-8122d95fdb44)
 
 ---
+
+## 🎓 Prepared by someone who's passed it
+
+Everything in this repo comes from preparing for — and sitting — the real exam. I earned the **Claude Certified Architect – Professional** credential in September 2026 with a scaled score of **860 / 1,000** (the passing bar is 720). These are the materials I wish I'd had on day one.
+
+<img src="assets/ccar-p-certificate.png" alt="Claude Certified Architect – Professional certificate issued to Anurag Karuparti on Sep 11, 2026, with Credly verification link" width="560">
+
+🔗 [Verify the credential on Credly](https://www.credly.com/badges/302e4c2a-57f5-40a0-9461-8122d95fdb44)
 
 ## ▶️ The video course
 

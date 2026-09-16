@@ -21,5 +21,11 @@
 !/sample-questions.md
 !/quiz.html
 
+# Published assets: the directory is admitted, but its contents stay
+# private-by-default too — un-ignore each published asset by name.
+!/assets
+/assets/*
+!/assets/ccar-p-certificate.png
+
 # OS junk, everywhere
 .DS_Store

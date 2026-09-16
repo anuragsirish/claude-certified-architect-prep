@@ -67,6 +67,8 @@ Anthropic's official prep path is **free to register** and mirrors the exam blue
 
 ## How I'd prepare
 
+This is the approach I used for my own pass — **860 / 1,000** in September 2026 ([credential on Credly](https://www.credly.com/badges/302e4c2a-57f5-40a0-9461-8122d95fdb44)):
+
 1. **Watch the lessons** — [my free video course](https://youtube.com/playlist?list=PLS3h0TTAvZGs) and/or the official path, one lesson at a time.
 2. **Self-assess against the blueprint** — read each objective above and honestly grade yourself.
 3. **Build something real** — one end-to-end Claude solution with RAG, evals, and observability teaches more than any amount of reading.
