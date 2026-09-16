@@ -2,9 +2,15 @@
 
 20 sample questions from my **300-question practice bank** for the **Claude Certified Architect – Professional (CCAR-P)** exam — four per lesson of the [free video course](https://youtube.com/playlist?list=PLS3h0TTAvZGs), so you can test yourself after each lesson.
 
-Every question is scenario-based, matches the official blueprint style (multiple-choice and multiple-response), and comes with a full rationale explaining why the right answer is right *and* why each wrong answer is wrong.
+Every question is an original scenario aligned with the published blueprint (multiple-choice and multiple-response), and comes with a full rationale explaining why the right answer is right *and* why each wrong answer is wrong. Practise model-agnostic architecture principles alongside Claude-specific certification preparation.
 
-🎯 **Want the full guide?** All 300 questions — 3 full-length, blueprint-weighted practice exams — are on Udemy: [Full course on Udemy (coming soon)](#).<!-- TODO: replace # with Udemy course URL -->
+🎯 **Want the full guide?** **4 realistic mocks × 63 questions (120 minutes each) + 48 lesson-revision questions = 300 unique questions** on Udemy: [Full course on Udemy (coming soon)](#).<!-- TODO: replace # with Udemy course URL -->
+
+Each mock uses D1–D7 counts of **11, 8, 12, 10, 9, 9, 4**, rounded from the **17/13/19/16/14/14/7%** blueprint weights. Each has **55 single-answer and 8 multiple-response questions** — an authorial choice, not an official exam ratio or per-exam domain allocation.
+
+On Udemy, learners can choose **Practice mode within each test** and select lesson-linked domains for that test, not the whole bank. The **48-question bonus** is recommended as **untimed practice**, with an optional **92-minute Exam mode timer**.
+
+The **72% practice benchmark** is an author-chosen study target, not a conversion of the official 720 scaled cut score, a pass prediction, or a guarantee.
 
 💡 *You can also take these 20 as an [interactive quiz](quiz.html) — clone the repo and open `quiz.html` in your browser.*
 
@@ -98,7 +104,7 @@ Prompt caching matches on an exact, stable prefix, so placing content that chang
 A law firm chunks contracts into fixed 500-token segments with no overlap for a clause-analysis assistant. Attorneys notice that answers about indemnification obligations are frequently based on clauses that are cut off mid-sentence at chunk boundaries. What should the team do FIRST?
 
 - **A.** Increase the retrieval top-k so more fragments of each clause are returned together
-- **B.** Add overlap between adjacent chunks, or move to boundary-aware chunking, so each clause appears intact in at least one chunk
+- **B.** Use clause-aware boundaries, with measured overlap or parent-context retrieval where needed, and validate that complete clauses are available for answering
 - **C.** Replace the embedding model with one trained specifically on legal text
 - **D.** Instruct the generation model to disregard incomplete sentences in the retrieved context
 
@@ -107,7 +113,7 @@ A law firm chunks contracts into fixed 500-token segments with no overlap for a 
 
 **Answer: B**
 
-Fixed-size chunking with no overlap splits clauses across boundaries, so no chunk in the index contains the full clause; adding overlap between adjacent chunks or chunking on clause boundaries ensures each clause appears whole somewhere in the index. Raising top-k returns more fragments but does not guarantee the pieces of a split clause are retrieved together or reassembled in order. A legal-domain embedding model improves semantic matching but does nothing about truncated chunk content. Prompting the model to ignore incomplete sentences hides the symptom while discarding the very text the answer needs.
+Repair the representation before tuning retrieval: preserve clause boundaries where they fit and provide sufficient overlap or parent context for longer clauses. Overlap reduces boundary loss but must be validated against actual clause lengths; an arbitrary fixed overlap cannot guarantee every clause is intact. More top-k fragments need not be adjacent, changing embeddings does not restore missing text, and ignoring partial clauses discards relevant evidence.
 
 </details>
 
@@ -368,7 +374,7 @@ A latency spike with no deployment typically traces to context size growth, a do
 
 A healthtech team's policy requires that a PHI-scrubbing script runs before any commit Claude Code makes. The rule is written prominently in CLAUDE.md, yet audits keep finding occasional commits where the script never ran. What is the BEST fix?
 
-- **A.** Implement the requirement as a hook on the relevant lifecycle event, so deterministic code runs the scrubber and the agent cannot skip it
+- **A.** Enforce a protected, fail-closed pre-commit check covering every allowed commit path, using an appropriate hook where supported and preventing the agent from bypassing or changing the gate
 - **B.** Move the instruction to the top of CLAUDE.md and rewrite it in stronger, unambiguous language
 - **C.** Switch the team to a more capable model that follows standing instructions more reliably
 - **D.** Ask developers to watch each commit and run the scrubber manually whenever Claude forgets
@@ -378,25 +384,25 @@ A healthtech team's policy requires that a PHI-scrubbing script runs before any 
 
 **Answer: A**
 
-Instructions in CLAUDE.md shape behavior but are not enforcement — a probabilistic agent can occasionally skip or misapply them, so a rule that must hold every time has to live in deterministic code. Hooks fire on defined lifecycle events and cannot be skipped by the model, making them the right layer for a mandatory pre-commit step. Rewording the instruction or upgrading the model both leave compliance probabilistic, which is what the audits already caught. Manual human vigilance is the least reliable layer of all and reintroduces the same intermittent failure.
+A mandatory check belongs in an enforcing execution boundary before the commit, not only in standing instructions. A hook can run the check, but coverage, failure handling and protection from bypass or modification must be verified; the existence of a hook alone is not a guarantee. Stronger prose, a different model and manual vigilance do not make the check mandatory. Even a reliably executed scrubber still needs validation for the PHI patterns it is intended to detect.
 
 </details>
 
 ### Q20 · Domain 7 — Developer Productivity & Operational Enablement
 
-A telecom's release-engineering team runs Claude Code headlessly in a CI pipeline to draft release notes on every tag. Security policy states the job must never pause for interactive approval, and nothing outside an explicitly pre-approved set of tools and commands may ever execute. Which configuration BEST satisfies both requirements?
+A telecom release-engineering team runs Claude Code headlessly in CI to draft release notes and write the result to one approved artifact path. Security requires no interactive approval and prohibits execution outside an explicitly approved tool/command set. Which permission-policy design BEST satisfies both requirements?
 
-- **A.** bypassPermissions, since CI is non-interactive and the pipeline environment is trusted
-- **B.** The default permission mode, with an operator watching the pipeline to answer prompts as they appear
-- **C.** Plan mode, so the job can only read the repository and cannot take any action at all
-- **D.** dontAsk mode with explicit allow rules for the approved tools, so anything that would have prompted is automatically denied
+- **A.** Disable permission checks because the CI environment is trusted
+- **B.** Use an interactive approval policy and have an operator answer prompts
+- **C.** Use a read-only policy that cannot write the required artifact
+- **D.** Enforce the explicit allowed tool/command set and output path, deny out-of-scope operations without prompting, and protect the policy from modification by the job
 
 <details>
 <summary><b>Show answer & explanation</b></summary>
 
 **Answer: D**
 
-dontAsk runs only what the configured allow rules permit and automatically denies anything that would otherwise prompt — non-interactive and confined to the pre-approved surface, which is exactly the stated policy and why it suits locked-down CI. bypassPermissions is also non-interactive but skips permission checks entirely, violating the requirement that only pre-approved commands ever run. The default mode blocks on prompts, which a headless pipeline cannot answer, and a human-watched pipeline defeats the point of automation. Plan mode is read-only, so the job could never write the release notes it exists to produce.
+CI needs both non-interactive handling and an enforced capability boundary. Explicit scoped permissions, denial of other operations and protected policy provide that design. Disabling checks removes the boundary; interactive approval violates the headless requirement; and read-only access cannot write the artifact explicitly required here. Merely denying actions that would prompt is not proof that every implicitly permitted action has also been excluded. Verify installed-client behavior rather than infer complete confinement from a mode name.
 
 </details>
 
@@ -404,8 +410,8 @@ dontAsk runs only what the configured allow rules permit and automatically denie
 
 ## Ready for the other 280?
 
-These 20 questions are a sample. The full guide — **300 original questions** in 3 blueprint-weighted practice exams with detailed rationales — is on Udemy: [Full course on Udemy (coming soon)](#).<!-- TODO: replace # with Udemy course URL -->
+These 20 questions are a sample. The full guide — **4 realistic 63-question, 120-minute mocks + 48 lesson-revision questions = 300 unique original questions**, all with detailed rationales — is on Udemy: [Full course on Udemy (coming soon)](#).<!-- TODO: replace # with Udemy course URL -->
 
 ▶️ [Free video course](https://youtube.com/playlist?list=PLS3h0TTAvZGs) · 📬 [Diary of an AI Architect](https://newsletter.karuparti.com)
 
-*© 2026 Anurag Karuparti. All rights reserved. These sample questions are provided for personal exam preparation only and may not be republished or resold. This is unofficial study material, not affiliated with or endorsed by Anthropic.*
+*© 2026 Anurag Karuparti. All rights reserved. These sample questions are provided for personal exam preparation only and may not be republished or resold. This is unofficial study material, not affiliated with or endorsed by Anthropic. No recalled or leaked exam items, copied Academy text, or raw official course materials are reproduced.*

@@ -21,7 +21,7 @@ Everything in this repo comes from preparing for — and sitting — the real ex
 
 **[Build AI That Works | Claude Certified Architect Professional Prep — From Demo to Production](https://youtube.com/playlist?list=PLS3h0TTAvZGs)**
 
-Five lessons that mirror Anthropic's official prep path, taught from the perspective of an architect who ships AI systems in production:
+Five lessons aligned with Anthropic's official prep path, taught from the perspective of an architect who ships AI systems in production. Learn model-agnostic production-AI architecture principles alongside Claude-specific certification preparation:
 
 | # | Lesson | Exam domains covered |
 |---|--------|----------------------|
@@ -41,7 +41,7 @@ Five lessons that mirror Anthropic's official prep path, taught from the perspec
 
 Seven blueprint domains, weighted 17/13/19/16/14/14/7 — Integration, Solution Design, and Evaluation alone make up more than half the exam.
 
-**→ [Read the full condensed exam guide](EXAM-GUIDE.md)** — blueprint breakdown, scoring, retake and renewal policies, and how I'd prepare.
+**→ [Read the full condensed exam guide](EXAM-GUIDE.md)** — blueprint breakdown, scoring, retake and renewal policies, and how I'd prepare. Also available as a **[downloadable PDF](CCAR-P-Exam-Guide.pdf)**.
 
 ## 📝 Try a sample question
 
@@ -68,7 +68,11 @@ Seven blueprint domains, weighted 17/13/19/16/14/14/7 — Integration, Solution 
 
 ## 🎯 Want the full guide?
 
-The 20 samples here come from my **300-question practice bank**: 3 full-length, blueprint-weighted practice exams, every question with a detailed rationale explaining why the right answer is right *and* why each wrong answer is wrong.
+The 20 samples here come from my **300-question practice bank**: **4 realistic mock exams × 63 questions (120 minutes each) + 48 lesson-revision questions = 300 unique questions**. Every question has a detailed rationale explaining why the right answer is right *and* why each wrong answer is wrong.
+
+Each mock uses **D1–D7 counts of 11, 8, 12, 10, 9, 9, 4**, an integer rounding of the published **17/13/19/16/14/14/7%** blueprint weights, not an official per-exam allocation. Each contains **55 single-answer and 8 multiple-response questions**; that mix is an authorial choice, **not an official exam ratio**.
+
+Choose **Practice mode within each Udemy test** for focused review using lesson-linked domains — the selection applies to that test, not the whole bank. The **48-question bonus revision set is best used as untimed practice**, with an optional **92-minute Exam mode timer**. A **72% practice benchmark** is an author-chosen study target, not a conversion of the official 720 scaled cut score, a pass prediction, or a guarantee.
 
 **→ Full course on Udemy — *coming soon***<!-- TODO: replace with Udemy course URL -->
 
@@ -82,7 +86,7 @@ The 20 samples here come from my **300-question practice bank**: 3 full-length, 
 
 ## Disclaimer
 
-This is an **unofficial** study resource and is not affiliated with, sponsored by, or endorsed by Anthropic. All practice questions are original work, written against the publicly available exam-guide blueprint — no official course content or exam items are reproduced here. Claude and Anthropic are trademarks of Anthropic, PBC. Exam details change; always verify against the [official certification page](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional).
+This is an **unofficial** study resource and is not affiliated with, sponsored by, or endorsed by Anthropic. All practice questions are original work, written against the publicly available exam-guide blueprint — no recalled or leaked exam items, copied Academy text, or raw official course materials are reproduced here. Claude and Anthropic are trademarks of Anthropic, PBC. Exam details change; always verify against the [official certification page](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional).
 
 ---
 

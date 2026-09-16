@@ -1,6 +1,8 @@
 # CCAR-P Exam Guide — The Essentials
 
-Everything you need to know before sitting the **Claude Certified Architect – Professional (CCAR-P)** exam, condensed into one page. Written in my own words, based on the official exam guide (v1.0, July 2026) and the official prep path — details can change, so always confirm against the [official certification page](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) before you register.
+Everything you need to know before sitting the **Claude Certified Architect – Professional (CCAR-P)** exam, condensed into a quick read. Written in my own words, based on the official exam guide (v1.0, July 2026) and the official prep path — details can change, so always confirm against the [official certification page](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) before you register.
+
+*Prefer a file? [Download this guide as a PDF](CCAR-P-Exam-Guide.pdf).*
 
 ## What this certification is
 
