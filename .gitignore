@@ -1,0 +1,25 @@
+# ============================================================================
+# PRIVATE-BY-DEFAULT REPO
+#
+# This repo publishes ONLY the showcase files explicitly un-ignored below.
+# Everything else stays local on purpose:
+#   - source/          raw course captures (contain session credentials + JWTs)
+#   - pdf/, markdown/, exam-guide/, Study Videos/
+#                      Anthropic partner-academy course material (not ours to
+#                      redistribute; videos alone are 200+ MB)
+#   - udemy/, guide/   the full paid question banks (only 20 samples are public)
+#   - notes/           personal study notes
+#
+# To publish a new file, add a `!/filename` line here — deliberately.
+# ============================================================================
+
+/*
+
+!/.gitignore
+!/README.md
+!/EXAM-GUIDE.md
+!/sample-questions.md
+!/quiz.html
+
+# OS junk, everywhere
+.DS_Store
