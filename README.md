@@ -1,6 +1,6 @@
 # Claude Certified Architect – Professional (CCAR-P) Exam Prep
 
-**Free video course · condensed exam guide · 20 sample practice questions** — everything you need to start preparing for Anthropic's Claude Certified Architect – Professional certification.
+**Free video course · my 155-page study notes · condensed exam guide · 20 sample practice questions** — everything you need to start preparing for Anthropic's Claude Certified Architect – Professional certification.
 
 [![YouTube](https://img.shields.io/badge/▶️_YouTube-Watch_the_free_course-red?logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLS3h0TTAvZGs)
 [![Newsletter](https://img.shields.io/badge/📬_Newsletter-Diary_of_an_AI_Architect-FF6719?logo=substack&logoColor=white)](https://newsletter.karuparti.com)
@@ -42,6 +42,18 @@ Five lessons aligned with Anthropic's official prep path, taught from the perspe
 Seven blueprint domains, weighted 17/13/19/16/14/14/7 — Integration, Solution Design, and Evaluation alone make up more than half the exam.
 
 **→ [Read the full condensed exam guide](EXAM-GUIDE.md)** — blueprint breakdown, scoring, retake and renewal policies, and how I'd prepare. Also available as a **[downloadable PDF](CCAR-P-Exam-Guide.pdf)**.
+
+## 📘 My complete study notes (free PDF)
+
+**→ [Download CCAR-P-Study-Guide-Styled.pdf](CCAR-P-Study-Guide-Styled.pdf)** — the 155-page set of notes I wrote while working through Anthropic's official prep course, and studied from to pass the exam.
+
+These are **my own notes, not a copy of the course**. The original course is free but requires registration on the [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) — take it there, and use these notes alongside it. Nine chapters:
+
+- **Exam overview and logistics** — format, domain weights, scoring, retakes, exam-day rules
+- **My notes on all five official prep modules** — screen-by-screen takeaways, glossary, and checkpoint notes in my own words, mapped to the seven exam domains
+- **Day-before cheat sheet** — the frameworks, decision tables, and traps to memorize
+- **Official sample questions** from the public exam guide
+- **64-question practice bank** mirroring the real item mix — every question original, each with a full rationale
 
 ## 📝 Try a sample question
 
@@ -86,7 +98,7 @@ Choose **Practice mode within each Udemy test** for focused review using lesson-
 
 ## Disclaimer
 
-This is an **unofficial** study resource and is not affiliated with, sponsored by, or endorsed by Anthropic. All practice questions are original work, written against the publicly available exam-guide blueprint — no recalled or leaked exam items, copied Academy text, or raw official course materials are reproduced here. Claude and Anthropic are trademarks of Anthropic, PBC. Exam details change; always verify against the [official certification page](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional).
+This is an **unofficial** study resource and is not affiliated with, sponsored by, or endorsed by Anthropic. All practice questions are original work, written against the publicly available exam-guide blueprint — no recalled or leaked exam items are reproduced here. The study guide PDF contains my own notes, written while taking Anthropic's official prep course (free, registration required); it is not a copy of the course and does not reproduce its text, and it is shared for personal exam preparation only. Claude and Anthropic are trademarks of Anthropic, PBC. Exam details change; always verify against the [official certification page](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional).
 
 ---
 
