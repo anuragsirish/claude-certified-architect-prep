@@ -1,6 +1,6 @@
 # Claude Certified Architect – Professional (CCAR-P) Exam Prep
 
-**Free video course · my 155-page study notes · condensed exam guide · 20 sample practice questions** — everything you need to start preparing for Anthropic's Claude Certified Architect – Professional certification.
+**Free video course · my 167-page study notes · condensed exam guide · 20 sample practice questions** — everything you need to start preparing for Anthropic's Claude Certified Architect – Professional certification.
 
 [![YouTube](https://img.shields.io/badge/▶️_YouTube-Watch_the_free_course-red?logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLS3h0TTAvZGs)
 [![Newsletter](https://img.shields.io/badge/📬_Newsletter-Diary_of_an_AI_Architect-FF6719?logo=substack&logoColor=white)](https://newsletter.karuparti.com)
@@ -45,7 +45,7 @@ Seven blueprint domains, weighted 17/13/19/16/14/14/7 — Integration, Solution 
 
 ## 📘 My complete study notes (free PDF)
 
-**→ [Download CCAR-P-Study-Guide-Styled.pdf](CCAR-P-Study-Guide-Styled.pdf)** — the 155-page set of notes I wrote while working through Anthropic's official prep course, and studied from to pass the exam.
+**→ [Download CCAR-P-Study-Guide-Styled.pdf](CCAR-P-Study-Guide-Styled.pdf)** — the 167-page set of notes I wrote while working through Anthropic's official prep course, and studied from to pass the exam.
 
 These are **my own notes, not a copy of the course**. The original course is free but requires registration on the [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) — take it there, and use these notes alongside it. Nine chapters:
 
