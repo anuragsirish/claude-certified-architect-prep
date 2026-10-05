@@ -4,7 +4,7 @@
 
 [![YouTube](https://img.shields.io/badge/▶️_YouTube-Watch_the_free_course-red?logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLS3h0TTAvZGs)
 [![Newsletter](https://img.shields.io/badge/📬_Newsletter-Diary_of_an_AI_Architect-FF6719?logo=substack&logoColor=white)](https://newsletter.karuparti.com)
-[![Udemy](https://img.shields.io/badge/🎯_Udemy-300_practice_questions-A435F0?logo=udemy&logoColor=white)](#)<!-- TODO: replace # with Udemy course URL -->
+[![Udemy](https://img.shields.io/badge/🎯_Udemy-300_practice_questions-A435F0?logo=udemy&logoColor=white)](https://www.udemy.com/course/new-claude-certified-architect-professional-ccar-p-tests/?couponCode=MT261005G1)
 [![CCAR-P Certified](https://img.shields.io/badge/🎓_CCAR--P-Certified_·_860%2F1000-C15F3C)](https://www.credly.com/badges/302e4c2a-57f5-40a0-9461-8122d95fdb44)
 
 ---
@@ -86,7 +86,7 @@ Each mock uses **D1–D7 counts of 11, 8, 12, 10, 9, 9, 4**, an integer rounding
 
 Choose **Practice mode within each Udemy test** for focused review using lesson-linked domains — the selection applies to that test, not the whole bank. The **48-question bonus revision set is best used as untimed practice**, with an optional **92-minute Exam mode timer**. A **72% practice benchmark** is an author-chosen study target, not a conversion of the official 720 scaled cut score, a pass prediction, or a guarantee.
 
-**→ Full course on Udemy — *coming soon***<!-- TODO: replace with Udemy course URL -->
+**→ [Get the full 300-question practice tests on Udemy](https://www.udemy.com/course/new-claude-certified-architect-professional-ccar-p-tests/?couponCode=MT261005G1)** — now live!
 
 ## 🔗 Connect
 
