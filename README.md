@@ -7,6 +7,14 @@
 [![Udemy](https://img.shields.io/badge/🎯_Udemy-300_practice_questions-A435F0?logo=udemy&logoColor=white)](https://www.udemy.com/course/new-claude-certified-architect-professional-ccar-p-tests/?couponCode=MT261005G1)
 [![CCAR-P Certified](https://img.shields.io/badge/🎓_CCAR--P-Certified_·_860%2F1000-C15F3C)](https://www.credly.com/badges/302e4c2a-57f5-40a0-9461-8122d95fdb44)
 
+> [!IMPORTANT]
+> ## 🚀 NEW — My CCAR-P Practice Tests are now live on Udemy!
+> **300 original questions · 4 full-length timed mock exams (63 Qs / 120 min) · detailed rationales for every answer**
+>
+> **👉 [Get the full 300-question practice tests on Udemy — now live!](https://www.udemy.com/course/new-claude-certified-architect-professional-ccar-p-tests/?couponCode=MT261005G1)**
+>
+> [![Enroll on Udemy](https://img.shields.io/badge/🚀_ENROLL_NOW_ON_UDEMY-300_CCAR--P_Practice_Questions-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/new-claude-certified-architect-professional-ccar-p-tests/?couponCode=MT261005G1)
+
 ---
 
 ## 🎓 Prepared by someone who's passed it
@@ -86,7 +94,11 @@ Each mock uses **D1–D7 counts of 11, 8, 12, 10, 9, 9, 4**, an integer rounding
 
 Choose **Practice mode within each Udemy test** for focused review using lesson-linked domains — the selection applies to that test, not the whole bank. The **48-question bonus revision set is best used as untimed practice**, with an optional **92-minute Exam mode timer**. A **72% practice benchmark** is an author-chosen study target, not a conversion of the official 720 scaled cut score, a pass prediction, or a guarantee.
 
-**→ [Get the full 300-question practice tests on Udemy](https://www.udemy.com/course/new-claude-certified-architect-professional-ccar-p-tests/?couponCode=MT261005G1)** — now live!
+> [!TIP]
+> ### 🚀 Ready for the real thing? The full practice tests are now live on Udemy!
+> **👉 [Get the full 300-question practice tests on Udemy — now live!](https://www.udemy.com/course/new-claude-certified-architect-professional-ccar-p-tests/?couponCode=MT261005G1)**
+>
+> [![Enroll on Udemy](https://img.shields.io/badge/🚀_ENROLL_NOW_ON_UDEMY-300_CCAR--P_Practice_Questions-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/new-claude-certified-architect-professional-ccar-p-tests/?couponCode=MT261005G1)
 
 ## 🔗 Connect
 
